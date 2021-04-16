@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: xx-large, sans-serif;
+}
+
+body {
+  background: url("../img/image.png") repeat 0 0;
+}
+
+h1 {
+  margin-top: 50px;
+  color: royalblue;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: mediumorchid;
+  text-align: center;
+  font-size: 30px;
+}
+
+canvas {
+  border: 10px solid #ffd919;
+  margin: 10%;
+  position: relative;
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to top, grey 1px, transparent 1px);
+  background-color: white;
+}
+
+input {
+  background-color: white;
+  position: fixed;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#m {
+  top: 450px;
+  right: 150px;
+}
+
+#b {
+  top: 600px;
+  right: 150px;
+}
+
+p {
+  position: fixed;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: mediumorchid;
+}
+
+#mLabel {
+  top: 460px;
+  right: 350px;
+}
+
+#bLabel {
+  top: 610px;
+  right: 350px;
+}
