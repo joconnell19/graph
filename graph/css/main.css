@@ -6,6 +6,7 @@
 
 body {
   background: url("../img/image.png") repeat 0 0;
+  margin: 10%;
 }
 
 h1 {
@@ -17,54 +18,53 @@ h1 {
 
 h2 {
   margin-top: 30px;
-  color: mediumorchid;
+  color: black;
   text-align: center;
   font-size: 30px;
 }
 
 canvas {
   border: 10px solid #ffd919;
-  margin: 10%;
-  position: relative;
   background-size: 20px 20px;
+  margin-top: 10%;
   background-image:
     linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to top, grey 1px, transparent 1px);
   background-color: white;
+  float: left;
+  width: 50%;
+  height: 320px;
+}
+
+#inputs {
+  float: right;
+  position: relative;
+  margin-top: 12%;
+  width: 40%;
+  display: inline;
+  vertical-align: middle;
 }
 
 input {
   background-color: white;
-  position: fixed;
-  height: 50px;
+  position: relative;
+  float: right;
+  width: 40%;
+  display: inline;
+  height: 50%;
   text-align: center;
-  font-size: 30px;
-}
-
-#m {
-  top: 450px;
-  right: 150px;
-}
-
-#b {
-  top: 600px;
-  right: 150px;
+  font-size: 150%;
+  bottom: 35px;
 }
 
 p {
-  position: fixed;
-  height: 50px;
+  position: relative;
+  float: left;
+  display: inline;
+  height: 50%;
+  width: 60%;
   text-align: center;
-  font-size: 30px;
+  font-size: 150%;
   color: mediumorchid;
-}
-
-#mLabel {
-  top: 460px;
-  right: 350px;
-}
-
-#bLabel {
-  top: 610px;
-  right: 350px;
+  margin: 5px;
 }
