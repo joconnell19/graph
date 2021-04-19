@@ -32,7 +32,7 @@ canvas {
     linear-gradient(to top, grey 1px, transparent 1px);
   background-color: white;
   float: left;
-  width: 50%;
+  width: 600px;
   height: 320px;
 }
 
